@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<document>
+  <DepartList desc="部门信息列表">
+    <DepartInfo desc="单个部门信息1">
+      <DepartId desc="部门编号" FieldLength="值范围:001-255">001</DepartId>
+      <DepartName desc="部门名称" FieldLength="最大20个汉字长度">研发部</DepartName>
+      <DepartMemo desc="部门备注" FieldLength="最大200个汉字">研发部备注</DepartMemo>
+      <DepartSeq desc="部门排序编号" FieldLength="值范围:1-255">1</DepartSeq>
+      <PowerList desc="功能权限列表" FieldLegth="PowerId1;PowerId2...PowerN;">1;2</PowerList>
+      <RoadList desc="路口权限列表" FieldLegth="AreaId1,RoadId1;AreaId2,RoadId2;...AreaIdN,RoadIdN;">1,1;2,1</RoadList>
+    </DepartInfo>
+
+    <DepartInfo desc="单个部门信息2">
+      <DepartId desc="部门编号">002</DepartId>
+      <DepartName desc="部门名称">商务部</DepartName>
+      <DepartMemo desc="部门备注">商务部备注</DepartMemo>
+      <DepartSeq desc="部门排序编号">2</DepartSeq>
+      <PowerList desc="功能权限列表">1;2;3</PowerList>
+      <RoadList desc="路口权限列表">1,1;1,2;2,1;2,2</RoadList>
+    </DepartInfo>    
+  </DepartList>
+  <PowerList desc="权限列表">
+    <PowerInfo desc="单个权限信息1">
+      <PowerId desc="权限编号">1</PowerId>
+      <PowerName desc="权限名称">实时地图</PowerName>
+      <PowerGroup desc="权限分组">0</PowerGroup>
+      <PowerSeq desc="权限排序编号">1</PowerSeq>
+    </PowerInfo>
+
+    <PowerInfo desc="单个权限信息2">
+      <PowerId desc="权限编号">2</PowerId>
+      <PowerName desc="权限名称">人员管理</PowerName>
+      <PowerGroup desc="权限分组">0</PowerGroup>
+      <PowerSeq desc="权限排序编号">2</PowerSeq>
+    </PowerInfo>
+    <PowerInfo desc="单个权限信息2">
+      <PowerId desc="权限编号">3</PowerId>
+      <PowerName desc="权限名称">路口管理</PowerName>
+      <PowerGroup desc="权限分组">0</PowerGroup>
+      <PowerSeq desc="权限排序编号">3</PowerSeq>
+    </PowerInfo>
+  </PowerList>
+  <RoadList desc="路口列表">
+    <RoadInfo desc="单个路口信息1">
+      <AreaId desc="区域编号">1</AreaId>
+      <AreaName desc="区域名称">浦口区</AreaName>
+      <RoadId desc="路口编号">1</RoadId>
+      <RoadName desc="路口名称">文德路1</RoadName>
+    </RoadInfo>
+
+    <RoadInfo desc="单个路口信息2">
+      <AreaId desc="区域编号">1</AreaId>
+      <AreaName desc="区域名称">浦口区</AreaName>
+      <RoadId desc="路口编号">2</RoadId>
+      <RoadName desc="路口名称">文德路2</RoadName>
+    </RoadInfo>
+    <RoadInfo desc="单个路口信息2">
+      <AreaId desc="区域编号">2</AreaId>
+      <AreaName desc="区域名称">六合区</AreaName>
+      <RoadId desc="路口编号">1</RoadId>
+      <RoadName desc="路口名称">六合路口1</RoadName>
+    </RoadInfo>
+
+    <RoadInfo desc="单个路口信息2">
+      <AreaId desc="区域编号">2</AreaId>
+      <AreaName desc="区域名称">六合区</AreaName>
+      <RoadId desc="路口编号">2</RoadId>
+      <RoadName desc="路口名称">六合路口2</RoadName>
+    </RoadInfo>
+  </RoadList>
+  <AreaList desc="区域列表">
+    <AreaInfo desc="单个区域信息1">
+      <AreaId desc="区域编号" FieldLength="值范围:1-255">1</AreaId>
+      <AreaName desc="区域名称" FieldLength="最大15个汉字">浦口区</AreaName>
+      <AreaMemo desc="区域备注" FieldLength="最大200个汉字">浦口区备注</AreaMemo>
+    </AreaInfo>
+
+    <AreaInfo desc="单个区域信息2">
+      <AreaId desc="区域编号">2</AreaId>
+      <AreaName desc="区域名称">六合区</AreaName>
+      <AreaMemo desc="区域备注">六合区备注</AreaMemo>
+    </AreaInfo>
+  </AreaList>
+</document>

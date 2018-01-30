@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<document>
+
+  <RoadInfo desc="单个路口信息1">
+    <AreaId desc="区域编号">1</AreaId>
+    <AreaName desc="区域名称">浦口区</AreaName>
+    <RoadId desc="路口编号">1</RoadId>
+    <RoadName desc="路口名称">文德路1</RoadName>
+    <RoadType desc="几叉路口">140</RoadType>
+  </RoadInfo>
+  <LampList>
+    <LampInfo>
+      <LampId desc="灯组编号">1</LampId>
+      <LampType desc="灯组类型">机动车灯组</LampType>
+      <LampDirection desc="灯组类型">东</LampDirection>
+      <LampName desc="灯组名称">机动车灯组1</LampName>
+      <LampRedId desc="红灯端子号">001</LampRedId>
+      <LampYellowId desc="黄灯端子号">002</LampYellowId>
+      <LampGreenId desc="绿灯端子号">003</LampGreenId>
+    </LampInfo>
+
+    <LampInfo>
+      <LampId desc="灯组编号">2</LampId>
+      <LampType desc="灯组类型">机动车灯组</LampType>
+      <LampDirection desc="灯组类型">南</LampDirection>
+      <LampName desc="灯组名称">机动车灯组2</LampName>
+      <LampRedId desc="红灯端子号">004</LampRedId>
+      <LampYellowId desc="黄灯端子号">005</LampYellowId>
+      <LampGreenId desc="绿灯端子号">006</LampGreenId>
+    </LampInfo>
+    <LampInfo>
+      <LampId desc="灯组编号">3</LampId>
+      <LampType desc="灯组类型">人行灯组</LampType>
+      <LampDirection desc="灯组类型">西</LampDirection>
+      <LampName desc="灯组名称">人行横道灯组</LampName>
+      <LampRedId desc="红灯端子号">007</LampRedId>
+      <LampYellowId desc="黄灯端子号">0</LampYellowId>
+      <LampGreenId desc="绿灯端子号">008</LampGreenId>
+    </LampInfo>
+  </LampList>
+  <LineList>
+    <LineInfo>
+      <LineId desc="车道真实编号">1</LineId>
+      <Dierection desc="灯组方向">N</Dierection>
+      <LineNum desc="该方向第几个车道1，2，3，4，5，6">1</LineNum>
+      <LineType desc="车道类型1-11">1</LineType> 
+    </LineInfo>
+  
+  </LineList>
+
+
+
+</document>

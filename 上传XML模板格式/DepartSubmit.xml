@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<document>
+  <DepartList desc="部门信息列表">
+    <DepartInfo desc="单个部门信息1">
+      <ManageTyope desc="操作类型" value="DELETE ADD EDIT"></ManageTyope>
+      <DepartId desc="部门编号" FieldLength="值范围:001-255">001</DepartId>
+      <DepartName desc="部门名称" FieldLength="最大20个汉字长度">研发部</DepartName>
+      <DepartMemo desc="部门备注" FieldLength="最大200个汉字">研发部备注</DepartMemo>
+      <DepartSeq desc="部门排序编号" FieldLength="值范围:1-255">1</DepartSeq>
+      <PowerList desc="功能权限列表" FieldLegth="PowerId1;PowerId2...PowerN;">1;2</PowerList>
+      <RoadList desc="路口权限列表" FieldLegth="AreaId1,RoadId1;AreaId2,RoadId2;...AreaIdN,RoadIdN;">1,1;2,1</RoadList>
+      <AreaList desc="如果该区域下路口全选不上传该区域的roadlist，直接传区域编号" FieldLegth="1;2;3;4"></AreaList>
+    </DepartInfo>
+  </DepartList>
+</document>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<document>
+  <AreaList desc="区域列表">
+    <AreaInfo desc="单个区域信息1">
+      <ManageTyope desc="操作类型" value="DELETE ADD EDIT"></ManageTyope>
+      <AreaId desc="区域编号" FieldLength="值范围:1-255">1</AreaId>
+      <AreaName desc="区域名称" FieldLength="最大15个汉字">浦口区</AreaName>
+      <AreaMemo desc="区域备注" FieldLength="最大200个汉字">浦口区备注</AreaMemo>
+      <RoadList desc="区域路口列表" FieldLegth="RoadRealId1;RoadRealId2;RoadRealId3;RoadRealId4;"></RoadList>
+    </AreaInfo>
+  </AreaList>
+</document>

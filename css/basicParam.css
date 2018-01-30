@@ -1,0 +1,286 @@
+﻿body {
+    overflow:hidden;
+}
+.paramBody {
+    width: 100%;
+    overflow:hidden;
+}
+.picDiv {
+width:600px;
+position:relative;
+border:1px solid #ccc;
+overflow:hidden;
+}
+.realRoadMap {
+    position:absolute;
+    right:0;
+    bottom:44px;
+    border:1px solid #ccc;
+}
+#realRoadMap1 {
+    right: 241px;
+    bottom: 6px;
+    z-index:100;
+}
+#realRoadMap2 {
+    right: 241px;
+    bottom: 6px;
+    z-index: 100;
+}
+.alertUserInfoFormTip {
+    width: 876px;
+}
+.alertTitle {
+    background: #f1f7fb;
+    height: 30px;
+    line-height: 30px;
+    width: 876px;
+    color: #5b5d5d;
+    margin: 0 auto;
+    margin-top: 12px;
+    margin-bottom: 10px;
+    font-size: 12px;
+    padding-left: 10px;
+}
+
+.basicInfoFrom {
+    overflow: hidden;
+    position: absolute;
+    top: 70px;
+    left: 635px;
+    right: 15px;
+    border: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+}
+.picDivTitle {
+    height: 35px;
+    padding-left: 20px;
+    background: #F1F1F1;
+    border-bottom: 1px solid #ccc;
+    line-height: 35px;
+    margin-bottom: 10px;
+}
+.lampBgDiv {
+    user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    border: 1px solid #ccc;
+    width: 840px;
+    height: 286px;
+    background: url("../img/lampPic/deng1.jpg");
+    position: relative;
+}
+.form {
+    padding-right: 15px;
+    height: 560px;
+    overflow: auto;
+}
+    .form .item {
+        width:50%;
+        float:left;
+       padding-left:15px;
+    }
+        .form .item .pre50 {
+        width:40%;
+        }
+    .form .item100 {
+        width: 100%;
+        float: left;
+        padding-left: 15px;
+    }
+
+        .form .item div {
+            margin-top:4px;
+        }
+    .form .item100 div {
+        margin-top: 4px;
+    }
+    .form input, .form select,.form option{
+        width: 100%;
+        height: 33px;
+        border: solid 1px #ccc;
+        border-radius: 3px;
+        padding-left: 10px;
+    }
+
+.alert {
+    width: 916px;
+    /*height: 700px;*/
+    display: none;
+}
+.table {
+    width: 100%;
+}
+    .table a {
+    cursor:pointer;
+    padding-left:8px;
+    }
+    .table tr, .table td {
+        height: 30px !important;
+       line-height: 30px !important;
+    }
+    .tablePic td, .tablePic th {
+      width:60px;
+        display: block;
+        float: left;
+        height:30px;
+    }
+    .tablePic td {
+        border: 1px solid #000000 !important;
+        text-align: left !important;
+        position: relative;
+    }
+.tablePic td span {
+    margin-left:5px;
+    font-size:16px;
+}
+        .tablePic td i {
+            position: absolute;
+            top: 6px;
+            right: 4px;
+        }
+        .tablePic td input {
+            position: absolute;
+            top: 6px;
+            right: 10px;
+        }
+        .tableDiv {
+            height: 320px;
+            overflow: auto;
+            margin-top: 10px;
+            border:1px solid #ccc;
+        }
+    .table .red td {
+    
+    background:red;
+
+    }
+    .table .yellow td {
+        background: yellow;
+    }
+    .table .green td {
+        background: green;
+    }
+
+#addLampForm {
+    width: 916px;
+    display: none;
+    padding: 10px;
+    padding-bottom:0px;
+}
+
+
+.select {
+    position: absolute;
+    width: 88px;
+    height: 30px;
+    left: 200px;
+    top: 0;
+    background:#ccc;
+    line-height:30px;
+    display:none;
+}
+    .select select option{
+        width:20px;
+    }
+#Nshade, #Sshade, #Wshade, #Eshade, #Nshade1, #Sshade1, #Wshade1, #Eshade1 {
+    position: absolute;
+    overflow: hidden;
+    z-index: 99;
+}
+#Nshade, #Nshade1 {
+    left: 378px;
+    top: 35px;
+    width: 20px;
+    height: 111px;
+    background: url("../img/roadPic/2041.png") 0px 0px;
+}
+
+#Sshade, #Sshade1{
+    top: 455px;
+    background: url("../img/roadPic/2021.png") 17px -7px;
+    width: 17px;
+    left: 205px;
+    height: 111px;
+}
+#Wshade, #Wshade1 {
+    left: 34px;
+    top: 203px;
+    width: 111px;
+    height: 19px;
+    background: url("../img/roadPic/2031.png") 0px 19px;
+}
+
+#Eshade, #Eshade1{
+    top: 378px;
+    background: url("../img/roadPic/2031.png") -5px 4px;
+    left: 455px;
+    height: 20px;
+    width: 111px;
+}
+
+#addRoadForm {
+   width:290px;
+   /*height: 600px;
+   z-index:110;*/
+}
+#addRoadForm .alertTitle {
+width:200px;
+}
+.addRoadFormTitle {
+    width: 560px;
+}
+#roadPicClick {
+    position: absolute;
+    z-index: 98;
+    width: 600px;
+    height: 600px;
+    left: 0;
+    top: 0;
+
+}
+#shadePanel {
+    left: 0px;
+    top: 0px;
+    width: 862px;
+    height: 700px;
+    background-color: #000;
+    opacity: 0.3;
+    position: absolute;
+    display: none;
+}
+#listCDLX {
+    width: 240px;
+    position: absolute;
+    padding-left:10px;
+    background:#ffffff;
+    border:1px solid red;
+    right:0px;
+    top: 10px;
+    height:600px;
+    overflow: hidden;
+    display: none;
+    z-index:100;
+}
+    #listCDLX ul li {
+        height:35px;
+        line-height:35px;
+    }
+#roadPicDiv {
+    overflow:hidden;
+}
+.absolute {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 97;
+}
+.absolute1 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 97;
+}
+#btnDelete {
+display:none;
+}
